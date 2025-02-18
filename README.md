@@ -99,7 +99,8 @@ ID = P / VDD = (50 × 10^-6 W) / (1.8V) = 27.78μA
 
 Thus, the drain current(ID) is approximately **27.78μA**. The gate voltage is set to 0.9V as a DC offset.
 
-![image](https://github.com/user-attachments/assets/a4b635fb-dc99-46b5-b50c-417c68c3b247)
+![image](https://github.com/user-attachments/assets/1611ac81-2a27-494f-8438-e73bd7650e0c)
+
 
 ![image](https://github.com/user-attachments/assets/8cada726-9b27-44ee-993c-39b056694ce7)
 
