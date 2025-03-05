@@ -49,7 +49,8 @@ It is an amplifier that amplifies the difference present between two signals whi
 
 
 
-
+## DC Analysis :
+To perform DC Analysis select DC op pnt in the edit simulation. 
 Set the appropriate values for W/L to obtain desired ID, and also set RD to obtain required value of Vo(CM).
 
 
@@ -86,7 +87,206 @@ Vo(CM)_1 =
 Vo(CM)_2 =
 
 ## Transient Analysis:
+ Transient Analysis showcases the behaviour of the circuits when it undergoes sudden transition from one steady-state to another.To perform Transient Analysis opt for transient analysis in edit simulation , give stop time as 5ms and run the simulation and observe the graph appeared below. And also calculate the gain.
 
+
+
+
+
+
+
+ ## AC Analysis :
+  Select the AC Analysis in edit simulation and select Decade for type of sweep , enter 20m for number of points per decade , 0.1 will be the start frequency and 1T will be stop frequency. 
+
+
+
+
+
+
+
+
+
+
+## Circuit - 2:
+ Replace RSS with a Current Source of 0.9mA supply.
+
+
+
+
+
+
+
+
+ ## DC Analysis :
+ To perform DC Analysis select DC op pnt in the edit simulation. 
+Set the appropriate values for W/L to obtain desired ID, and also set RD to obtain required value of Vo(CM).
+
+
+
+
+
+
+
+
+
+
+
+
+
+we have got:
+ID_1 = ______
+ID_2 = ________
+Vo(CM)_1 = _______
+Vo(CM)_2 = ______
+## Transient Analysis :
+ To perform Transient Analysis opt for transient analysis in edit simulation , give stop time as 5ms and run the simulation and observe the graph appeared below. And also calculate the gain.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Vo(CM) = 
+ Vi(CM) = 
+ Gain = 
+ Gain in dB = 20log(4) = 
+## AC Analysis :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Circuit-3 :
+ Replace Currenr Source with a CMOSN with Vp = 0.4V 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Vary W/L of new MOSFET 
+
+
+
+
+
+
+
+
+
+ ## DC Analysis:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ## Transient Analysis :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ## AC Analysis:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ## Result :
+## 1. Circuit-1:
+   The DC Analysis shows that the MOSFETs operate in saturation with balanced drain currents when input voltages are equal.
+   The Transient response confirms proper differential behaviour.
+   The AC Analysis gives us the gain and common-mode rejection .
+## 2. Circuit-2:
+   Replacing the resistor with a current source improves bias stability, as seen in the DC Analysis.
+   The Transient response is more stable , ensuring better symmetry.
+   The AC Analysis indicates the gain and bandwidth increased.
+## 3. Circuit-3:
+   The DC Analysis confirms that the MOSFET-based current source regulates the tail current efficiently.
+   The Transient response maintains signal accurancy with improved performance.
+   The AC Analysis shows higher gain and bandwidth.
+   The DC sweep analysis validates expected output variations. 
+
+## Inference :
+    This experiment explored differential amplifier configurations: resistor-based , current source-based and CMOSN-based , each affecting gain, bandwidth , stability differently. 
+     Resistor: High bandwidth, low gain, low CMRR.
+     Current source: High gain, high CMRR, slightly lower bandwidth.
+     CMOSN: Highest gain.
+Best Configuration Based on Need:
+1.High bandwidth- Resistor 
+2.Maximum gain- CMOSN 
+3.Better CMRR- Current source or CMOSN 
+
+     
+   
+
+ 
 
 
 
