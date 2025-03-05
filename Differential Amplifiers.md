@@ -274,10 +274,10 @@ Vo(CM)_2 = ______
    The DC sweep analysis validates expected output variations. 
 
 ## Inference :
-    This experiment explored differential amplifier configurations: resistor-based , current source-based and CMOSN-based , each affecting gain, bandwidth , stability differently. 
-     Resistor: High bandwidth, low gain, low CMRR.
-     Current source: High gain, high CMRR, slightly lower bandwidth.
-     CMOSN: Highest gain.
+This experiment explored differential amplifier configurations: resistor-based , current source-based and CMOSN-based , each affecting gain, bandwidth , stability differently. 
+Resistor: High bandwidth, low gain, low CMRR.
+Current source: High gain, high CMRR, slightly lower bandwidth.
+CMOSN: Highest gain.
 Best Configuration Based on Need:
 1.High bandwidth- Resistor 
 2.Maximum gain- CMOSN 
