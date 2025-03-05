@@ -17,10 +17,10 @@ It is an amplifier that amplifies the difference present between two signals whi
 
 ## Equipments Required
 1. DC Power Supply , VDD=3.3V
-2. AC Power Supply , Vi(CM)=1.72V (2nos)
+2. DC Power Supply , Vi(CM)=1.72V (2nos)
 3. Resistors , RD=3.3Kohm (2 nos) ,RSS=770ohm
 4. Current Source , ISS=0.9A
-5. CMOSN (2nos)
+5. CMOSN
 ## Procedure:
 1. Open LT-spice software and copy the librabry file(tsmc.lib) to the folder you are working in to get the proper values with respect to the NMOS.
 2. Select the components with the you have designed theoritically and place the components you require to rig-up your circuit accordingly and link them using the 
@@ -33,6 +33,71 @@ It is an amplifier that amplifies the difference present between two signals whi
 7. In case of DC analysis , firstly change the DC source option to sinusoidal waveform option then we'll get a command SINE(1.72 50m 1k) place it near the circuit. now select AC analysis option values given as Decade , 20 , 0.1 , 1T . Get the output value while placing the probe at output region.
 8. Repeat same steps for all the circuits .   
 
+## Circuit 1:
+## Components Required :
+1. CMOSN (2nos)
+2. Resistors , RD=3.3Kohm (2nos), RSS=770ohm
+3. DC Power supplies , VDD=3.3V , Vi(CM)=1.72V
   
+
+
+
+
+
+
+
+
+
+
+
+Set the appropriate values for W/L to obtain desired ID, and also set RD to obtain required value of Vo(CM).
+
+
+
+
+
+
+
+
+
+
+
+Here , to get ID (expected) = ______ we have:
+L = _________
+W = _________
+To get Vo(CM) (expected) = _________ we have:
+RD = ________
+
+
+
+
+
+
+
+
+
+
+
+
+After DC Analysis , we got:
+ID_1 =
+ID_2 = 
+Vo(CM)_1 =
+Vo(CM)_2 =
+
+## Transient Analysis:
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
