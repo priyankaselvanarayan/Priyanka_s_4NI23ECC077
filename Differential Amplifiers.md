@@ -100,7 +100,7 @@ Vo(CM)_2 = 1.81V
  
  Gain,A = Vo(CM)/Vi(CM) = 0.0475/0.0602 = 0.789036545 V/V 
  
- Gain in dB = 20log(0.789036545 ) = -2.05806
+ Gain in dB = 20log(0.789036545 ) = -2.05806dB
  
  ## AC Analysis :
   Select the AC Analysis in edit simulation and select Decade for type of sweep , enter 20m for number of points per decade , 0.1 will be the start frequency and 1T will be stop frequency. 
@@ -146,7 +146,7 @@ Vo(CM)_2 = 1.81V
  
  Gain,A = Vo(CM)/Vi(CM) = 0.2998/0.0482 = 6.21991701 V/V
  
- Gain in dB = 20log(6.21991701) = 
+ Gain in dB = 20log(6.21991701) = 15.8756918dB
  
  ![image](https://github.com/user-attachments/assets/e4935764-c423-4f3a-8c18-45d167fc04f8)
 
@@ -201,7 +201,7 @@ Vi(CM) = 0.0481V
 
 Gain,A = Vo(CM)/Vi(CM) = 0.0561/0.0481 = 1.16632017 V/V
 
-Gain in dB = 20lag( )
+Gain in dB = 20log( 1.16632017) = 1.336355725dB 
 
 ## AC Analysis:
 
