@@ -51,6 +51,8 @@ It is an amplifier that amplifies the difference present between two signals whi
   
 ## DC Analysis :
 To perform DC Analysis select DC op pnt in the edit simulation. 
+
+
 Set the appropriate values for W/L to obtain desired ID, and also set RD to obtain required value of Vo(CM).
 
 
@@ -58,20 +60,34 @@ Set the appropriate values for W/L to obtain desired ID, and also set RD to obta
 
 
 Here , to get ID (expected) = 0.45Awe have:
+
+
 L = 180nm
 W = 2.425um
+
+
 To get Vo(CM) (expected) = 1.81V we have:
+
+
 RD = 3.3094Kohm
+
+
 After DC Analysis , we got:
+
+
 ID_1 = 0.000450233A
 ID_2 = 0.000450233A
 Vo(CM)_1 = 1.81V
 Vo(CM)_2 = 1.81V
+
+
 ![image](https://github.com/user-attachments/assets/aae1d420-a64f-4870-8dbb-e925ec150948)
 
 
 ## Transient Analysis:
  Transient Analysis showcases the behaviour of the circuits when it undergoes sudden transition from one steady-state to another.To perform Transient Analysis opt for transient analysis in edit simulation , give stop time as 5ms and run the simulation and observe the graph appeared below. And also calculate the gain.
+ 
+ 
  ![image](https://github.com/user-attachments/assets/7bac5821-b6d0-48eb-950f-d5d0c2d72806)
 
  Vi(CM) = 0.0602V
@@ -101,12 +117,16 @@ W = 6um
 ![image](https://github.com/user-attachments/assets/9a900364-13e4-44f3-a412-5cb0d1329bd5)
 
 we have got:
+
+
 ID_1 = 0.45A
 ID_2 = 0.45A
 Vo(CM)_1 = 1.81V
 Vo(CM)_2 = 1.81V
 ## Transient Analysis :
  To perform Transient Analysis opt for transient analysis in edit simulation , give stop time as 5ms and run the simulation and observe the graph appeared below. And also calculate the gain.
+ 
+ 
  Vo(CM) = 0.2998V 
  Vi(CM) = 0.0482V
  Gain,A = Vo(CM)/Vi(CM) = 0.2998/0.0482 = 6.21991701 V/V
@@ -135,8 +155,12 @@ W = 6um
 ![image](https://github.com/user-attachments/assets/92f7d546-5a10-4498-86bb-0f389f13a8bc)
 
 for,
+
+
 L = 180nm
 W = 0.851um
+
+
 we got,
 ![image](https://github.com/user-attachments/assets/fe8a5340-52f7-432b-8296-1b1bdfa242f4)
 
