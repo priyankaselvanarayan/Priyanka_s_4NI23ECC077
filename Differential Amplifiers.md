@@ -11,6 +11,10 @@ It is an amplifier that amplifies the difference present between two signals whi
 ## Design:
 
 
+![image](https://github.com/user-attachments/assets/169809e9-8068-4c76-ab6c-366c85bddda7)
+
+
+
 
 
 
