@@ -34,6 +34,8 @@ It is an amplifier that amplifies the difference present between two signals whi
 8. Repeat same steps for all the circuits .   
 
 ## Circuit 1:
+![image](https://github.com/user-attachments/assets/7468a247-fc59-4d87-a061-137e2db5c52f)
+
 ## Components Required :
 1. CMOSN (2nos)
 2. Resistors , RD=3.3Kohm (2nos), RSS=770ohm
@@ -52,213 +54,81 @@ It is an amplifier that amplifies the difference present between two signals whi
 ## DC Analysis :
 To perform DC Analysis select DC op pnt in the edit simulation. 
 Set the appropriate values for W/L to obtain desired ID, and also set RD to obtain required value of Vo(CM).
-
-
-
-
-
-
-
-
-
-
-
-Here , to get ID (expected) = ______ we have:
-L = _________
-W = _________
-To get Vo(CM) (expected) = _________ we have:
-RD = ________
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/eec77da0-3a05-46e0-bad6-590a5fcec2ab)
+Here , to get ID (expected) = 0.45Awe have:
+L = 180nm
+W = 2.425um
+To get Vo(CM) (expected) = 1.81V we have:
+RD = 3.3094Kohm
 After DC Analysis , we got:
-ID_1 =
-ID_2 = 
-Vo(CM)_1 =
-Vo(CM)_2 =
-
+ID_1 = 0.000450233A
+ID_2 = 0.000450233A
+Vo(CM)_1 = 1.81V
+Vo(CM)_2 = 1.81V
+![image](https://github.com/user-attachments/assets/aae1d420-a64f-4870-8dbb-e925ec150948)
 ## Transient Analysis:
  Transient Analysis showcases the behaviour of the circuits when it undergoes sudden transition from one steady-state to another.To perform Transient Analysis opt for transient analysis in edit simulation , give stop time as 5ms and run the simulation and observe the graph appeared below. And also calculate the gain.
-
-
-
-
-
-
-
+ ![image](https://github.com/user-attachments/assets/7bac5821-b6d0-48eb-950f-d5d0c2d72806)
+ Vi(CM) = 0.0602V
+ Vo(CM) = 0.0475V
+ Gain,A = Vo(CM)/Vi(CM) = 0.0475/0.0602 = 0.789036545 V/V 
+ Gain in dB = 20log( )
  ## AC Analysis :
   Select the AC Analysis in edit simulation and select Decade for type of sweep , enter 20m for number of points per decade , 0.1 will be the start frequency and 1T will be stop frequency. 
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/c3df848a-a6d9-4172-8207-ffd72b7a08af)
 ## Circuit - 2:
  Replace RSS with a Current Source of 0.9mA supply.
-
-
-
-
-
-
-
-
- ## DC Analysis :
+![image](https://github.com/user-attachments/assets/a8e34490-77c8-41f4-9532-bcc17d017e5e)
+## DC Analysis :
  To perform DC Analysis select DC op pnt in the edit simulation. 
 Set the appropriate values for W/L to obtain desired ID, and also set RD to obtain required value of Vo(CM).
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/96f5d555-0674-4d09-b0f5-32f4c9ba6bb3)
+for, 
+L = 180nm
+W = 6um 
+![image](https://github.com/user-attachments/assets/9a900364-13e4-44f3-a412-5cb0d1329bd5)
 we have got:
-ID_1 = ______
-ID_2 = ________
-Vo(CM)_1 = _______
-Vo(CM)_2 = ______
+ID_1 = 0.45A
+ID_2 = 0.45A
+Vo(CM)_1 = 1.81V
+Vo(CM)_2 = 1.81V
 ## Transient Analysis :
  To perform Transient Analysis opt for transient analysis in edit simulation , give stop time as 5ms and run the simulation and observe the graph appeared below. And also calculate the gain.
-
-
-
-
-
-
-
-
-
-
-
-
-
- Vo(CM) = 
- Vi(CM) = 
- Gain = 
- Gain in dB = 20log(4) = 
+ Vo(CM) = 0.2998V 
+ Vi(CM) = 0.0482V
+ Gain,A = Vo(CM)/Vi(CM) = 0.2998/0.0482 = 6.21991701 V/V
+ Gain in dB = 20lag( )
+ ![image](https://github.com/user-attachments/assets/e4935764-c423-4f3a-8c18-45d167fc04f8)
 ## AC Analysis :
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/83b3f13e-d33f-43a5-967e-0ddc29b23abf)
 ## Circuit-3 :
- Replace Currenr Source with a CMOSN with Vp = 0.4V 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- Vary W/L of new MOSFET 
-
-
-
-
-
-
-
-
-
+ Replace Current Source with a CMOSN with Vp = 0.4V 
+![image](https://github.com/user-attachments/assets/3159d669-b38e-4fbc-ac95-ec0e08414ed2)
+Vary W/L of new MOSFET 
+![image](https://github.com/user-attachments/assets/949a9688-4fe4-4f06-af0f-f4d3a697fbf5)
+L = 180nm 
+W = 6um 
  ## DC Analysis:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- ## Transient Analysis :
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- ## AC Analysis:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- ## Result :
+ Set the appropriate values for W/L to obtain desired ID, and also set RD to obtain required value of Vo(CM).
+![image](https://github.com/user-attachments/assets/92f7d546-5a10-4498-86bb-0f389f13a8bc)
+for,
+L = 180nm
+W = 0.851um
+we got,
+![image](https://github.com/user-attachments/assets/fe8a5340-52f7-432b-8296-1b1bdfa242f4)
+ID_1 = 0.450818A
+ID_2 = 0.450818A
+Vo(CM)_1 = 1.81003V
+Vo(CM)_2 = 1.81003V
+## Transient Analysis :
+![image](https://github.com/user-attachments/assets/47ebe88b-18d6-4290-84e7-0197443e48d1)
+Vo(CM) = 0.0561V 
+ Vi(CM) = 0.0481V
+ Gain,A = Vo(CM)/Vi(CM) = 0.0561/0.0481 = 1.16632017 V/V
+ Gain in dB = 20lag( )
+## AC Analysis:
+![image](https://github.com/user-attachments/assets/c35aa9d3-bfc8-4b4c-9cd4-51fbe4a8e47d)
+## Result :
 ## 1. Circuit-1:
    The DC Analysis shows that the MOSFETs operate in saturation with balanced drain currents when input voltages are equal.
    The Transient response confirms proper differential behaviour.
